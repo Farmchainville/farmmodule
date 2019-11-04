@@ -189,7 +189,7 @@ class FarmController extends Controller
             $address = $lga;
             $gaddress = str_replace(" ",'+',$lga);
 
-            $apiKey = 'AIzaSyDUAhxvC7Vzk7T2fvPQaL9HzeV17WlO-g4';
+            $apiKey = '';
 
             $url = "https://maps.google.com/maps/api/geocode/json?key=$apiKey&address=$gaddress&sensor=false&region=NG";
             $ch = curl_init();
